@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <!--#ifdef ODM_HQ_EDIT-->
+    <!--Chendong,Qu@ODM_HQ.Factory.EngineerMode.Config,2018/12/27,modify config for check small board matchs main board begin-->
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.u.smallboard.detect.support" />
+    <!--Chendong,Qu@ODM_HQ.Factory.EngineerMode.Config,2018/12/27,modify config for check small board matchs main board end-->
+    <!--#endif /* ODM_HQ_EDIT */-->
+    <feature name="com.oppo.eng.gyroscope.sensor.support" />
+    <feature name="com.oppo.eng.magnetic.sensor.support" />
+    <feature name="com.oppo.eng.gravity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.light.sensor.calibrate.support" />
+    <!--#ifdef ODM_HQ_EDIT-->
+    <!--Mingming,Zhou@ODM_HQ.Factory.EngineerMode.Config,2019/03/28,add for light sensor leak calibration-->
+    <feature name="com.oppo.eng.light.sensor.leak.calibrate.support" />
+    <!--#endif /* ODM_HQ_EDIT */-->
+    <feature name="com.oppo.eng.sensor.selftest.support" />
+    <feature name="com.oppo.eng.stepcounter.sensor.support" />
+    <!--feature name="com.oppo.eng.ship.mode.support" /-->
+    <!--#ifdef ODM_HQ_EDIT-->
+    <!--Mingming,Zhou@ODM_HQ.Factory.EngineerMode.Config,2019/01/15,Remove config for battery test begin-->
+    <!--<feature name="com.oppo.eng.charger.id.voltage.support" />-->
+    <!--Mingming,Zhou@ODM_HQ.Factory.EngineerMode.Config,2019/01/15,Remove config for battery test end-->
+    <!--#endif /* ODM_HQ_EDIT */-->
+    <!--#ifdef ODM_HQ_EDIT-->
+    <!--Chendong,Qu@ODM_HQ.Factory.EngineerMode.Config,2019/01/02,add config for sensor calibrate begin-->
+    <feature name="com.oppo.eng.proximity.distance.calibration.support" />
+    <!--Chendong,Qu@ODM_HQ.Factory.EngineerMode.Config,2019/01/02,add config for sensor calibrate end-->
+    <!--#endif /* ODM_HQ_EDIT */-->
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.gemini.support" />
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <!--#ifdef ODM_CM_EDIT-->
+    <!--Feiyue.Chang@CM.RM.Andorid.System.EngineerMode.Config,2020/07/16,add config for sar begin-->
+    <feature name="com.oppo.eng.sar.head" value="1.132" />
+    <feature name="com.oppo.eng.sar.body" value="0.569" />
+    <!--Feiyue.Chang@CM.RM.Andorid.System.EngineerMode.Config,2020/07/16,add config for sar end-->
+    <!--#endif /* ODM_CM_EDIT */-->
+    <!-- Multimedia feature -->
+    <!--feature name="com.oppo.eng.smart.pa.calibrate.support" /-->
+    <!--Wenshuai,Chen@ODM_HQ.Factory.EngineerMode.Config,2019/03/23,add config for fm radio begin-->
+    <!-- <feature name="com.oppo.eng.fm.radio.support" /> -->
+    <!--Wenshuai,Chen@ODM_HQ.Factory.EngineerMode.Config,2019/03/23,add config for fm radio end-->
+    <!--#endif /* ODM_HQ_EDIT */-->
+
+    <!-- Connectivity feature -->
+
+    <!-- Camera feature -->
+    <feature name="com.oppo.eng.flash.light.calibrate.support" />
+    <feature name="com.oppo.eng.flash.light.auto.calibrate.support"/>
+    <feature name="com.oppo.eng.flash.light.support" />
+    <feature name="com.oppo.eng.second.back.camera.support" />
+    <feature name="com.oppo.eng.camera.dual.calibrate.support"/>
+    <feature name="com.oppo.eng.camera.dual.verificate.support"/>
+    <feature name="com.oppo.eng.camera.dual.calibrate.aftersale.support"/>
+    <feature name="com.oppo.eng.camera.calibrate.support"/>
+
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+    <feature name="com.oppo.eng.mtk.platform" />
+    <feature name="com.oppo.eng.exp.platform" />
+
+    <!-- Camera parameters -->
+    <feature name="com.oppo.eng.camera.calibrate.project.name" value="E"/>
+    <feature name="com.oppo.eng.camera.calibration.params.name" value="CalibrationOppoE_MTK6771.json"/>
+    <feature name="com.oppo.eng.camera.verification.params.name" value="VerificationOppoE_MTK6771.json"/>
+    <feature name="com.oppo.eng.camera.calibration.rear.size" value="4160x3120"/>
+    <feature name="com.oppo.eng.camera.calibrate.second.rear.size" value="1600x1200"/>
+    <feature name="com.oppo.eng.camera.calibration.yshift" value="8.99"/>
+    <feature name="com.oppo.eng.camera.portrait.size" value="3264x2448"/>
+
+    <!-- dualcam calibration parameters -->
+    <feature name="com.oppo.eng.camera.calibration.algo" value="arcsoft"/>
+
+    <!-- camera capture image rotate -->
+    <feature name="com.oppo.eng.camera.capture.image.no.need.rotate" />
+
+</features>

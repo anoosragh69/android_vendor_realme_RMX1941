@@ -235,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/etc/Conf_MultipleTest_winter_ft5446.ini:$(TARGET_COPY_OUT_VENDOR)/etc/Conf_MultipleTest_winter_ft5446.ini \
     vendor/realme/RMX1941/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/realme/RMX1941/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/realme/RMX1941/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/apdb/APDB_MT6765_S01__W2020:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6765_S01__W2020 \
@@ -1403,10 +1402,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/etc/audio_param/oppo6785_20682/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/oppo6785_20682/VolumeGainMap_ParamUnitDesc.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/audio_param/oppo6785_20682/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/oppo6785_20682/Volume_AudioParam.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/audio_param/oppo6785_20682/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/oppo6785_20682/Volume_ParamUnitDesc.xml \
-    vendor/realme/RMX1941/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
-    vendor/realme/RMX1941/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model \
     vendor/realme/RMX1941/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model \
     vendor/realme/RMX1941/proprietary/vendor/etc/camera/attribute.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/attribute.model \

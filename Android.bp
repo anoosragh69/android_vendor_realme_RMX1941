@@ -17,6 +17,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "OppoEngineerMode",
+	owner: "realme",
+	apk: "proprietary/priv-app/OppoEngineerMode/OppoEngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "SensorHub",
 	owner: "realme",
 	apk: "proprietary/vendor/app/SensorHub/SensorHub.apk",

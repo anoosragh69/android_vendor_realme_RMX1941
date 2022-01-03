@@ -49,6 +49,23 @@ android_app_import {
 	privileged: true,
 }
 
+cc_prebuilt_library_shared {
+	name: "libem_support_jni",
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	product_specific: true,
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libem_support_jni.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libem_support_jni.so"],
+		},
+	},
+}
+
 prebuilt_etc_xml {
 	name: "vibrator-mtk-default",
 	owner: "realme",
